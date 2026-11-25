@@ -30,8 +30,8 @@ $ ./bin/turing case1.tm 10#
 illegal_input
 ```
 ```case2.tm```实现了判定如下语言:
-$L=\{ \omega \omega | \omega \in \{0,1\}^*\}$
-其中$\omega\omega$表示将字符串$\omega$与自身连接得到的字符串。实例输入输出如下:
+$L=\\{ \omega \omega | \omega \in \\{0,1\\}^*\\}$
+其中$\omega \omega$表示将字符串$\omega$与自身连接得到的字符串。实例输入输出如下:
 ```
 #以下省略/bin
 $ ./turing case2.tm 0101
